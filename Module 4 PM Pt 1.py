@@ -11,7 +11,6 @@ class ItemToPurchase:
     #item_price = 0.0
     #item_quantity = 0
 
-
     #default constructor
     def __init__(self, item_name = "none", item_price = 0.0, item_quantity = 0):
         self.item_name = item_name
@@ -21,8 +20,9 @@ class ItemToPurchase:
     #method
     def print_item_cost(self):
         print(f"{self.item_name} {self.item_quantity} @ $ {self.item_price} = ${self.item_quantity * self.item_price}")
-
-print("Please enter item information below ")
+        total = self.item_price * self.item_quantity
+        return total
+print("Please enter item information for two items below ")
 name_input1 = input("Please enter item name: ")
 price_input1 = float(input("Please enter item price: "))
 quantity_input1 = int(input("Please enter item quantity: "))
@@ -32,9 +32,10 @@ quantity_input2 = int(input("Please enter item quantity: "))
 item1 = ItemToPurchase(name_input1, price_input1, quantity_input1)
 item2 = ItemToPurchase(name_input2, price_input2, quantity_input2)
 
-item1.print_item_cost()
-item2.print_item_cost()
-
+print("TOTAL COST")
+cost1 = item1.print_item_cost()
+cost2 = item2.print_item_cost()
+print(f"Total: $ {cost1+cost2}")
 
 #inputs
 # items = []
