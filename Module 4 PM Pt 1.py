@@ -23,12 +23,13 @@ class ItemToPurchase:
         print(f"{self.item_name} {self.item_quantity} @ $ {self.item_price} = ${self.item_quantity * self.item_price}")
 
 #inputs
-
+items = []
 item_num = int(input("Enter the number of items: "))
 for i in range(item_num):
     name_input = input("Please enter item name: ")
     price_input = float(input("Please enter item price: "))
     quantity_input = int(input("Please enter item quantity: "))
     item = ItemToPurchase(name_input, price_input, quantity_input)
-    item.print_item_cost()
-
+    items.append(item)
+print(items[0])
+# I can't figure out the looping on this one, need to try different approach
