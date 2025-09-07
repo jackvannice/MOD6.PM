@@ -16,7 +16,7 @@ class ItemToPurchase:
 
     #method
     def print_item_cost(self):
-        print(f"{self.item_name} {self.item_quantity} @ $ {self.item_price} = ${self.item_quantity * self.item_price}")
+        print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
         total = self.item_price * self.item_quantity
         return total
 
@@ -35,7 +35,7 @@ item2 = ItemToPurchase(name_input2, price_input2, quantity_input2)
 print("TOTAL COST")
 cost1 = item1.print_item_cost()
 cost2 = item2.print_item_cost()
-print(f"Total: $ {cost1+cost2}")
+print(f"Total: ${cost1+cost2}")
 
 #Attempt with a loop to get inputs
 # items = []
