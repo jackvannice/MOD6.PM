@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Step 2 partially done Commit">
+    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Step 2 loop attempt commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module 4 PM Pt 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 4 PM Pt 1.py" afterDir="false" />
     </list>
@@ -77,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757254010488</updated>
-      <workItem from="1757254011467" duration="3501000" />
+      <workItem from="1757254011467" duration="4057000" />
     </task>
     <task id="LOCAL-00001" summary="Step 1 Commit">
       <option name="closed" value="true" />
@@ -95,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757257050713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Step 2 loop attempt commit">
+      <option name="closed" value="true" />
+      <created>1757257603268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757257603268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,9 +112,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Step 1 Commit" />
     <MESSAGE value="Step 2 partially done Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 2 partially done Commit" />
+    <MESSAGE value="Step 2 loop attempt commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 2 loop attempt commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Module_4_PM$Module_4_PM_Pt_1.coverage" NAME="Module 4 PM Pt 1 Coverage Results" MODIFIED="1757257320564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Module_4_PM$Module_4_PM_Pt_1.coverage" NAME="Module 4 PM Pt 1 Coverage Results" MODIFIED="1757258017490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
