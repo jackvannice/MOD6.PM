@@ -22,5 +22,13 @@ class ItemToPurchase:
     def print_item_cost(self):
         print(f"{self.item_name} {self.item_quantity} @ $ {self.item_price} = ${self.item_quantity * self.item_price}")
 
-item1 = ItemToPurchase(item_name = "Bottled Water", item_price = 1, item_quantity = 10)
-item1.print_item_cost()
+#inputs
+
+item_num = int(input("Enter the number of items: "))
+for i in range(item_num):
+    name_input = input("Please enter item name: ")
+    price_input = float(input("Please enter item price: "))
+    quantity_input = int(input("Please enter item quantity: "))
+    item = ItemToPurchase(name_input, price_input, quantity_input)
+    item.print_item_cost()
+
