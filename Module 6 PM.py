@@ -16,7 +16,7 @@ class ItemToPurchase:
         print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
         total = self.item_price * self.item_quantity
         return total
-
+'''
 #Step 2: Prompt user for items and create two objects
 print("Please enter item information for two items below ")
 name_input1 = input("Please enter item 1 name: ")
@@ -29,7 +29,7 @@ quantity_input2 = int(input("Please enter item 2 quantity: "))
 desc_input2 = str(input("Please enter item 2 description: "))
 item1 = ItemToPurchase(name_input1, price_input1, quantity_input1, desc_input1)
 item2 = ItemToPurchase(name_input2, price_input2, quantity_input2, desc_input2)
-
+'''
 #Step 3: Add costs and output total cost
 #print("TOTAL COST")
 #cost1 = item1.print_item_cost()
@@ -79,7 +79,7 @@ class ShoppingCart:
 
         for item in self.cart_items:
             item.print_item_cost()
-        print(f"total: ${self.get_cost_of_cart()}")
+        print(f"Total: ${self.get_cost_of_cart():.2f}")
 
     def print_descriptions(self):
         if len(self.cart_items) == 0:
@@ -89,7 +89,7 @@ class ShoppingCart:
         print('Item descriptions: ')
         for item in self.cart_items:
             print(f"{item.item_name}: {item.item_description}")
-
+'''
 my_shopping_cart = ShoppingCart("John" , "February 1, 2020")
 
 my_shopping_cart.add_item(item1)
@@ -97,5 +97,57 @@ my_shopping_cart.add_item(item2)
 
 my_shopping_cart.print_total()
 my_shopping_cart.print_descriptions()
+'''
+
+def print_menu(my_shopping_cart):
+    while True:
+        print('MENU')
+        print('a - Add item to cart')
+        print('r - Remove item from cart')
+        print('c - Change item quantity')
+        print('i - Output item descriptions')
+        print('o - Output shopping cart')
+        print('q - Quit')
+
+        user_choice = input("Please enter your choice: ").lower()
+        if user_choice == 'a':
+            print('Add item to cart')
+            name = input("Please enter item name: \n")
+            price = float(input("Please enter item price: \n"))
+            quantity = int(input("Please enter item quantity: \n"))
+            description = input("Please enter item description: \n")
+
+            added_item = ItemToPurchase(name, price, quantity, description)
+            my_shopping_cart.add_item(added_item)
+        elif user_choice == 'r':
+            print('Remove item from cart')
+            name = input("Please enter item to remove: \n")
+            my_shopping_cart.remove_item(name)
+        elif user_choice == 'c':
+            print('Change item quantity')
+            name = input("Please enter item to change: \n")
+            updated_quantity = int(input("Please enter updated item quantity: \n"))
+            modified_item = ItemToPurchase(name, 0.0, updated_quantity)
+            my_shopping_cart.modify_item(modified_item)
+        elif user_choice == 'i':
+            my_shopping_cart.print_descriptions()
+        elif user_choice == 'o':
+            my_shopping_cart.print_total()
+        elif user_choice == 'q':
+            break
+        else:
+            print("Invalid choice. Please try again.")
+def main():
+    customer_name = input("Please enter customer's name: ")
+    current_date = input("Please enter current date: ")
+    print(f"Customer name: {customer_name}")
+    print(f"Current date: {current_date}")
+
+    my_shopping_cart = ShoppingCart(customer_name, current_date)
+
+    print_menu(my_shopping_cart)
+
+if __name__ == '__main__':
+    main()
 
 
