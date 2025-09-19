@@ -28,10 +28,10 @@ item1 = ItemToPurchase(name_input1, price_input1, quantity_input1)
 item2 = ItemToPurchase(name_input2, price_input2, quantity_input2)
 
 #Step 3: Add costs and output total cost
-print("TOTAL COST")
-cost1 = item1.print_item_cost()
-cost2 = item2.print_item_cost()
-print(f"Total: ${cost1+cost2}")
+#print("TOTAL COST")
+#cost1 = item1.print_item_cost()
+#cost2 = item2.print_item_cost()
+#print(f"Total: ${cost1+cost2}")
 
 #Step 4: create ShoppingCart Class
 
@@ -40,12 +40,51 @@ class ShoppingCart:
         self.customer_name = customer_name
         self.current_date = current_date
         self.cart_items = []
-    def items(self, ItemToPurchase):
+    def add_item(self, ItemToPurchase):
         self.cart_items.append(ItemToPurchase)
     def remove_item(self, item_name):
-        self.cart_items.remove(item_name)
-        if item_name not in self.cart_items:
-            print("Item not found in cart. Nothing removed.")
+        for item in self.cart_items:
+            if item.item_name == item_name:
+                self.cart_items.remove(item)
+                return
+        print("Item not found in cart. Nothing removed.")
     def modify_item(self, ItemToPurchase):
-        self.cart_items.append(ItemToPurchase)
-        if
+        for item in self.cart_items:
+            if item.item_name == ItemToPurchase.item_name:
+                if ItemToPurchase.item_price != 0:
+                    item.item_price = ItemToPurchase.item_price
+                if ItemToPurchase.item_quantity != 0:
+                    item.item_quantity = ItemToPurchase.item_quantity
+                return
+        print("Item not found in cart. Nothing modified.")
+    def get_num_items_in_cart(self):
+        total_quantity = 0
+        for item in self.cart_items:
+            total_quantity += item.item_quantity
+        return total_quantity
+    def get_cost_of_cart(self):
+        total_cost = 0
+        for item in self.cart_items:
+            total_cost += (item.item_quantity * item.item_price)
+        return total_cost
+    def print_total(self):
+        if len(self.cart_items) == 0:
+            print("Shopping cart is empty.")
+            return
+        print(f"{self.customer_name}'s shopping cart - {self.current_date}")
+        print(f"Number of items: {self.get_num_items_in_cart()}")
+        print()
+
+        for item in self.cart_items:
+            item.print_item_cost()
+
+        print()
+        print(f"total: ${self.get_cost_of_cart()}")
+my_shopping_cart = ShoppingCart("John" , "February 1, 2020")
+
+my_shopping_cart.add_item(item1)
+my_shopping_cart.add_item(item2)
+
+my_shopping_cart.print_total()
+
+
