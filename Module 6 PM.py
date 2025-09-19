@@ -3,10 +3,6 @@
 #Step 1: Build ItemToPurchase Class
 #class
 class ItemToPurchase:
-    #attributes, unnecessary to state these as they are defined in __init__?
-    item_name = str
-    item_price = float
-    item_quantity = int
 
     #default constructor
     def __init__(self, item_name = "none", item_price = 0.0, item_quantity = 0):
@@ -37,14 +33,19 @@ cost1 = item1.print_item_cost()
 cost2 = item2.print_item_cost()
 print(f"Total: ${cost1+cost2}")
 
-#Attempt with a loop to get inputs
-# items = []
-# item_num = int(input("Enter the number of items: "))
-# for i in range(item_num):
-#     name_input = input("Please enter item name: ")
-#     price_input = float(input("Please enter item price: "))
-#     quantity_input = int(input("Please enter item quantity: "))
-#     item = ItemToPurchase(name_input, price_input, quantity_input)
-#     items.append(item)
-# print(items[0])
-# I can't figure out the looping on this one, need to try different approach...
+#Step 4: create ShoppingCart Class
+
+class ShoppingCart:
+    def __init__(self, customer_name = "none", current_date = "January 1, 2020"):
+        self.customer_name = customer_name
+        self.current_date = current_date
+        self.cart_items = []
+    def items(self, ItemToPurchase):
+        self.cart_items.append(ItemToPurchase)
+    def remove_item(self, item_name):
+        self.cart_items.remove(item_name)
+        if item_name not in self.cart_items:
+            print("Item not found in cart. Nothing removed.")
+    def modify_item(self, ItemToPurchase):
+        self.cart_items.append(ItemToPurchase)
+        if

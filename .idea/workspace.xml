@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Final with all steps working and fix a few unnecessary spaces">
-      <change afterPath="$PROJECT_DIR$/Module 6 PM.py" afterDir="false" />
+    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="First Mod6 Commit with Mod4 work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module 6 PM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 6 PM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -136,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757282545291</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First Mod6 Commit with Mod4 work">
+      <option name="closed" value="true" />
+      <created>1758301109921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758301109921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +163,8 @@
     <MESSAGE value="Step 2 non loop attempt with step 2 and 3 working" />
     <MESSAGE value="Final with all steps working" />
     <MESSAGE value="Final with all steps working and fix a few unnecessary spaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final with all steps working and fix a few unnecessary spaces" />
+    <MESSAGE value="First Mod6 Commit with Mod4 work" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Mod6 Commit with Mod4 work" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Module_4_PM$Module_4_PM_Pt_1.coverage" NAME="Module 4 PM Pt 1 Coverage Results" MODIFIED="1757282362258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
