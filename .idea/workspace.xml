@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Step 4 with all methods working and outputs as desired for assignment">
+    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Working Program AO 5:22 9/19/2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module 6 PM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 6 PM.py" afterDir="false" />
     </list>
@@ -174,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758322334063</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Working Program AO 5:22 9/19/2025">
+      <option name="closed" value="true" />
+      <created>1758324185168</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758324185168</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +200,8 @@
     <MESSAGE value="first cut of step 4..." />
     <MESSAGE value="second attempt of step 4 with all of the methods" />
     <MESSAGE value="Step 4 with all methods working and outputs as desired for assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 4 with all methods working and outputs as desired for assignment" />
+    <MESSAGE value="Working Program AO 5:22 9/19/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Program AO 5:22 9/19/2025" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Module_4_PM$Module_4_PM_Pt_1.coverage" NAME="Module 4 PM Pt 1 Coverage Results" MODIFIED="1757282362258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
