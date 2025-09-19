@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Final with all steps working">
+    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Final with all steps working and fix a few unnecessary spaces">
+      <change afterPath="$PROJECT_DIR$/Module 6 PM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 4 PM Pt 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 4 PM Pt 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jackvannice"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jackvannice&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jackvannice/MOD4.PM.git",
-    "accountId": "840dbfd8-0783-4995-9761-609bcfac5341"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jackvannice/MOD4.PM.git&quot;,
+    &quot;accountId&quot;: &quot;840dbfd8-0783-4995-9761-609bcfac5341&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="32NHFv56HRhx7luTC1MdJ2W1HMG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,6 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/jackvannice/PycharmProjects/PythonProject/Module 4 PM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +66,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-PY-252.23892.515" />
         <option value="bundled-python-sdk-7e47963ff851-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.515" />
       </set>
     </attachedChunks>
@@ -77,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757254010488</updated>
-      <workItem from="1757254011467" duration="11736000" />
+      <workItem from="1757254011467" duration="12367000" />
+      <workItem from="1758300605205" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="Step 1 Commit">
       <option name="closed" value="true" />
@@ -127,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757281174328</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final with all steps working and fix a few unnecessary spaces">
+      <option name="closed" value="true" />
+      <created>1757282545291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757282545291</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,9 +149,10 @@
     <MESSAGE value="Step 2 non loop attempt commit" />
     <MESSAGE value="Step 2 non loop attempt with step 2 and 3 working" />
     <MESSAGE value="Final with all steps working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final with all steps working" />
+    <MESSAGE value="Final with all steps working and fix a few unnecessary spaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final with all steps working and fix a few unnecessary spaces" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Module_4_PM$Module_4_PM_Pt_1.coverage" NAME="Module 4 PM Pt 1 Coverage Results" MODIFIED="1757282325959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Module_4_PM$Module_4_PM_Pt_1.coverage" NAME="Module 4 PM Pt 1 Coverage Results" MODIFIED="1757282362258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
