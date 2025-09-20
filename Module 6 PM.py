@@ -1,6 +1,4 @@
-# Module 4 Portfolio Milestone // Online Shopping Cart
-
-#Step 1: Build ItemToPurchase Class
+# Module 4 Portfolio Milestone // Build ItemToPurchase Class
 
 class ItemToPurchase:
 
@@ -15,7 +13,7 @@ class ItemToPurchase:
         total = self.item_price * self.item_quantity
         return total
 
-#Step 4: create ShoppingCart Class
+#Module 6 Portfolio Milestone // Create ShoppingCart Class with Menu and Main functions
 
 class ShoppingCart:
     def __init__(self, customer_name = "none", current_date = "January 1, 2020"):
