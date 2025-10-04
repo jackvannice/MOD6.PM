@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Working Program updated 5:45 9/19">
+    <list default="true" id="97682182-c75b-4521-b0d6-8b2ffbabc532" name="Changes" comment="Final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 6 PM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 6 PM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/jackvannice/PycharmProjects/PythonProject/Module 4 PM",
+    "last_opened_file_path": "/Users/jackvannice/PycharmProjects/PythonProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -190,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758325514933</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Final">
+      <option name="closed" value="true" />
+      <created>1758330976086</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758330976086</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +218,8 @@
     <MESSAGE value="Step 4 with all methods working and outputs as desired for assignment" />
     <MESSAGE value="Working Program AO 5:22 9/19/2025" />
     <MESSAGE value="Working Program updated 5:45 9/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working Program updated 5:45 9/19" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Module_4_PM$Module_4_PM_Pt_1.coverage" NAME="Module 4 PM Pt 1 Coverage Results" MODIFIED="1757282362258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
